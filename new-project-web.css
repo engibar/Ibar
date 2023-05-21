@@ -1,0 +1,249 @@
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.7)100%,rgba(0,0,0,0.7)100%), url("sawiro/lion.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 640px;
+}
+.title{
+	position: relative;
+	top: 120px;
+	left: 100px;
+}
+.hd{
+	font-family: arial;
+	color: white;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 70px;
+}
+.font-size{
+	font-family: verdana;
+	font-size: 18px;
+	color: orange;
+}
+.author{
+	font-family: verdana;
+	font-size: 40px;
+	color: white;
+	margin: 0;
+	width: 600px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	font-weight: bold;
+}
+.stats{
+	font-family: arial;
+	font-size: 18px;
+	width: 590px;
+	color:orange;
+	line-height:25px;
+	margin-left: 15px;
+}
+.join{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: sans-serif;
+	color: orange;
+	position: relative;
+	top: -25px;
+	margin-left: 15px;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.join:hover{
+		background-color: orange;
+		color: black;
+}
+.log{
+		border: none;
+		background-color: rgba(255,255,255,0.9);
+		height: 380px;
+		width: 280px;
+		position: absolute;
+		top: 150px;
+		left: 800px;
+		border-radius: 10px;
+}
+.title2{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: rgb(255,200,50);
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	border-radius: 5px;
+	color: black;
+	font-weight: bold;
+	font-family: arial;
+}
+.access{
+	position: relative;
+	top: -10px;
+}
+.type1{
+	position: absolute;
+	top: 120px;
+	left: 15px;
+	width: 235px;
+	height: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: rgb(255,200,50);
+	background-color: transparent;
+	font-family: arial;
+	color: black;
+	outline: none;
+}
+.type1::placeholder{
+	color: rgba(0,0,0,0.7);}
+.type2{
+	position: absolute;
+	top: 170px;
+	left: 15px;
+	width: 235px;
+	height: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: rgb(255,200,50);
+	background-color: transparent;
+	font-family: arial;
+	color:black;
+	outline: none;
+}
+.type2::placeholder{
+	color: rgba(0,0,0,0.7);}
+.type3{
+	position: absolute;
+	top: 220px;
+	left: 15px;
+	width: 235px;
+	height: 25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: rgb(255,200,50);
+	background-color: transparent;
+	font-family: arial;
+	color: black;
+	outline: none;
+}
+.type3::placeholder{
+	color: rgba(0,0,0,0.7);}
+.type4{
+	position: absolute;
+	top: 275px;
+	left: 42px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: rgb(255,200,50);
+	border: none;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+.type4:hover{
+	background-color: orange;
+	color:white;
+}
+.type5{
+	position: absolute;
+	top: 312px;
+	left: 116px;
+	font-family: serif;
+	font-size: 11px;
+}
+.icons{
+	margin-left: 20px;
+	position: relative;
+	top: 340px;
+}
+.logo-1{
+	width: 30px;
+	height: 30px;
+	color:black;
+}	
+.logo-1:hover{
+				color: orange;
+}
+.Eng{
+	position: absolute;
+	top: 0px;
+	left: 110px;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+}
+.name{
+	color: orange;
+}
+.buttons{
+	position: absolute;
+	top: 19px;
+	left: 600px;
+	font-family: arial;
+	font-size: 15px;
+}
+.links{
+	color: orange;
+	margin-left: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.search{
+	position: absolute;
+	top: 15px;
+	left: 1050px;
+}
+.radi{
+	width: 150px;
+	height: 25px;
+	background-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-right: none;
+	border-color: rgb(255,200,50);
+	color: orange;
+	outline: none;
+}
+.radi::placeholder{
+	color: rgba(255,200,50,0.5);
+	position: relative;
+	left: 5px;
+}
+.guji{
+	position: relative;
+	left: -10px;
+	height: 25px;
+	border-style: solid;
+	border-width: 1px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: rgb(255,200,50);
+	color: black;
+	font-weight: bold;
+	border-color: rgb(255,200,50);
+}
+
+.guji:hover{
+			background-color: orange;
+	        border-color: orange;
+	        color: white;
+}
