@@ -23,16 +23,16 @@ body{
 .hey{
 	color: white;
 	font-family: arial;
-	font-size: 50px;
+	font-size: 100px;
 	position: relative;
-	top: 250px;
+	top: 350px;
 }
 .talk{
 	color: white;
 	font-family: arial;
 	font-size: 20px;
 	position: relative;
-	top: 250px;
+	top: 350px;
 }
 #click{
 		background-color: orange;
