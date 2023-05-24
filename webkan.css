@@ -18,19 +18,19 @@ body{
 }
 .how{
 	position: relative;
-	top: 100px;
+	top: 500px;
 }
 .hey{
 	color: white;
 	font-family: arial;
-	font-size: 100px;
+	font-size: 200px;
 	position: relative;
 	top: 350px;
 }
 .talk{
 	color: white;
 	font-family: arial;
-	font-size: 20px;
+	font-size: 100px;
 	position: relative;
 	top: 350px;
 }
