@@ -18,17 +18,17 @@ body{
 }
 .how{
 	position: relative;
-	top: 800px;
+	top: 500px;
 }
 .hey{
 	color: white;
 	font-family: arial;
-	font-size: 50px;
+	font-size: 100px;
 }
 .talk{
 	color: white;
 	font-family: arial;
-	font-size: 20px;
+	font-size: 50px;
 }
 #click{
 		background-color: orange;
