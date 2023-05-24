@@ -1,0 +1,48 @@
+body{
+	background-position: center;
+	background-size: cover;
+	background-color:rgb(128,128,128);
+	text-align: center;
+}
+.hey{
+	font-size: 50px;
+	position: relative;
+	top: 200px;
+	font-family: arial;
+	color: white;
+}
+h1:hover{
+	color:orange ;
+	font-family: algerian;
+	background-color: rgb(2,200,255);
+	border: none;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	border-radius: 15px;
+
+}
+.talk{
+	position: relative;
+	top: 200px;
+	left: 390px;
+	font-family: arial
+	font-size: 20px;
+	width: 600px;
+}
+.talk{
+	color: white;
+	font-size: 25px;
+}
+.talk:hover{
+	color: black;
+	background-color: orange;
+	border: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+}
