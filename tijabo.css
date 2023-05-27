@@ -2,12 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+.title{
+	width: 100%
+}
+.lion{
+	width: 200%;
+}
 .wrapper{
 	width: 100%;
 }
-.lion{
-	width: 100%;
-}
+
 .img-info{
 	width: 100%;
 }
