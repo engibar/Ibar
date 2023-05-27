@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>responsive</title>
+	<link rel="stylesheet" type="text/css" href="tijabo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+</head>
+<body>
+       <img class="lion" src="sawiro/lion.jpg">
+       <div class="wrapper">
+       	<article class="img-info">
+       		<h2>Yay!</h2>
+       		<p>
+<p> Natural number: counting numbers are called Natural number.
+✓ Denoted by N.
+• Whole number: All-natural number together with Zero.
+✓ Denoted by W.
+• All-natural numbers, 0 and Negative of natural numbers form the collection of all integers.
+✓ Denoted by Z from German word “Zahlen” means to count.
+• Positive integers: are placed on the right-hand side Zero.
+• Negative integers: are place on the left-hand side Zero.
+✓ Denoted by the minus (-) sign before each number.
+• Order of positive integers: Example: 2 is greater than 1
+ 2 > 1.
+• Order of Negative integers: Example: -1 is greater than -2
+ : -1 > -2.
+• An odd Number is a whole number that can not be divided exactly by 2.
+• An even number is a whole number that can be divided exactly by 2.
+✓ The sum of two odd numbers = Even number.
+✓ The sum of two even numbers = Even number.
+✓ The sum of an odd number and an even number = Odd number.
+• Factor: A whole number can be expressed as a product of two whole numbers include 1 and the 
+number itself
+• A number is divisible by 2, if the ones place is any one of the even numbers.
+• A number is divisible by 3, if the sum of its digits is divisible by 3.
+• A number is divisible by 4, if the last two digits of the given number is divisible by 4 or Zeros.
+• A number is divisible by 5, if the ones place is either 0 or 5.
+• A number is divisible by 6, if its divisible by both 2 and 3.
+• A number is divisible by 8, if the last three digits of the given number is divisible by 8 or zeros.
+• A number is divisible by 9, if the sum of its digits is divisible by 9.
+• A number is divisible by 10, if its ones place is only Zero.
+• A number is divisible by 11, if the difference between the sum of alternative digits of the number is 
+either 0 or divisible by 11.
+• Prime number is a number which has exactly two factors namely 1 and the number itself.
+• Prime factor are those factors of a number which are prime number.
+• The highest common factor (H.C.F) of two or more numbers is the largest common factor among all 
+the common factors of the number.
+• The lowest common multiple (L.C.M) of two or more numbers is the smallest common multiple 
+among all the common multiples of the numbers.
+• A number is squared when it is multiplied by itself.
+• The square root of a number is the number that when multiplied by itself we get the number.
+• A number is cubed when its multiplied and then multiplied by itself again.
+• The cube root of a number is the number that was multiplied by itself to get the cube number.
+• A fraction is a number that represent a part of whole number.</p>
+       	</article>
+       	<img class="lion-me" src="sawiro/lion.jpg">
+       	
+       </div>
+</body>
+</html>
