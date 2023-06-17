@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>last game</title>
+</head>
+<style>
+	.game{
+           border:2px solid yellow;
+           height: 400px;
+           width: 380px;
+          position: relative;
+          left: 100px;
+          top: 100px;
+          background-color: #1f242d;
+          border-radius: 15px;
+	}
+	button{
+		background-color: orange;
+		border: none;
+		position: relative;
+		top: 303px;
+		left: 2px;
+		margin: -2px;
+		width: 126.5px;
+		height: 100px;
+		cursor: pointer;
+		border-bottom-left-radius:
+		
+
+	}
+	button{
+		font-family:verdana;
+		font-weight: bold;
+	}
+	.b1{
+		background-color: orange;
+		border-bottom-left-radius: 15px;
+		color: black;
+		;
+	}
+	.b2{
+		background-color: rgb(2,200,255);
+		color: #1f242d;
+	}
+	.b3{
+		background-color: orange;
+		border-bottom-right-radius:15px;
+		color: black;
+	}
+	#go{
+		text-align: center;
+		color: white;
+		font-family: arial;
+		font-size: 14px;
+		position: absolute;
+		top: 170px;
+		left: 30px;
+	
+
+	}
+	#went{
+		position: absolute;
+		top: -16px;
+		left: 0px;
+		background-color: orange;
+		width: 380px;
+		height: 70px;
+		text-align: center;
+		border-top-right-radius: 12px;
+		border-top-left-radius: 12px;
+	}
+	#lets{
+		position: absolute;
+		top: 5px;
+		left: 150px;
+		font-weight: bold;
+	}
+</style>
+<body>
+
+	<div class="game">
+		
+		<p id="went"></p>
+	<p id="go"></p>
+	<h2 id="lets">lets play</h2>
+
+	<button class="b1" onclick="
+	        const randomNumber = Math.random();
+	        	let computerMove = '';
+	        if(randomNumber >= 0 && randomNumber < 1/3){
+	        	computerMove = 'Rock';
+	        }else if(randomNumber >= 1/3 && randomNumber < 2/3){
+	        	computerMove = 'Paper';
+	        }else if(randomNumber >= 2/3 && randomNumber < 1){
+	        	computerMove = 'Scissors';
+	        }
+	         console.log(computerMove);
+
+	         let result = '';
+
+	        if(computerMove === 'Rock'){
+	        	result = 'Tie.'
+	        }else if(computerMove === 'Paper'){
+	        	result = 'you lose.'
+	        }else if(computerMove === 'Scissors'){
+	        	result = 'you win.'
+	        }
+	        console.log(result);
+
+	       document.getElementById('go').innerHTML = (`you picked Rock. computer picked ${computerMove}. ${result}.`)
+	">
+		Rock
+	</button>
+	<button class="b2" onclick="
+	         const randomNumber = Math.random();
+
+	         let computerMove = '';
+	         if(randomNumber >=0 && randomNumber < 1/3){
+	         	computerMove = 'Rock';
+	         }else if(randomNumber >= 1/3 && randomNumber < 2/3){
+	         	computerMove = 'Paper';
+	         }else if(randomNumber >= 2/3 && randomNumber < 1){
+	         	computerMove = 'Scissors';
+	         }
+
+	         let result = '';
+
+	        if(computerMove === 'Paper'){
+	        	result = 'Tie.';
+	        }else if(computerMove === 'Scissors'){
+	        	result = 'you lose.';
+	        }else if(computerMove === 'Rock'){
+	        	result = 'you win.'
+	        }
+
+	        document.getElementById('go').innerHTML = (`you picked Paper. computer picked ${computerMove}. ${result}.`)
+	">Paper</button>
+	<button class="b3" onclick="
+	        const randomNumber = Math.random();
+
+	         let computerMove = '';
+	         if(randomNumber >=0 && randomNumber < 1/3){
+	         	computerMove = 'Rock';
+	         }else if(randomNumber >= 1/3 && randomNumber < 2/3){
+	         	computerMove = 'Paper';
+	         }else if(randomNumber >= 2/3 && randomNumber < 1){
+	         	computerMove = 'Scissors';
+	         }
+
+	         let result = '';
+
+	        if(computerMove === 'Scissors'){
+	        	result = 'Tie.';
+	        }else if(computerMove === 'Rock'){
+	        	result = 'you lose.';
+	        }else if(computerMove === 'Paper'){
+	        	result = 'you win.'
+	        }
+
+	        document.getElementById('go').innerHTML = (`you picked Scissors. computer picked ${computerMove}. ${result}.`);
+	">Scissors</button>
+	</div>
+       <script>
+       	
+       </script>
+</body>
+</html>
