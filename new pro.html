@@ -17,12 +17,16 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 100vh;
+		margin: 0;
+		padding: 0;
+
 	}
 	.hello{
 		background-color: blue;
 		width: 100%;
 		height: 50px;
-		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+		/*box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);*/
+		margin: none;
 	}
 	.top-img{
 		width: 35px;
@@ -96,6 +100,7 @@
 		position: absolute;
 		top: 230px;
 		left: 300px;
+		margin: 0;
 	}
 	.information{
 		font-size: 30px;
@@ -119,14 +124,15 @@
 		top: 20px;
 		left: 10px;
 	}
-	.bottom{
+	/*.bottom{
 		position: absolute;
 		bottom: 0;
 		background-color: blue;
 		width: 100%;
 		height: 25px;
 		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-	}
+		margin: none;
+	}*/
 	@media screen and (max-width:600px){
 	.hello{
 		width: 100%;
@@ -156,7 +162,7 @@
 	.links{
 		position: absolute;
 		top: 8px;
-		left: 190px;
+		left: 160px;
 		width: 160px;
 		box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.3);
 	}
@@ -183,14 +189,10 @@
 		padding-left: 12px;
 		padding-right: 12px;
 		font-size: 12px;
-		border: none;
-		box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
-		border-radius: 5px;
 		position: absolute;
 		top: 80px;
-		left: 280px;
-		cursor: pointer;
-		transition: opacity color 0.15s;
+		left: 260px;
+
 	}
 	.info{
 		position: absolute;
@@ -204,18 +206,18 @@
 		left: 10px;
 	}
 	.its{
-		font-size: 12px;
+		font-size: 11px;
 		position: relative;
-		left: 10px;
+		left: 8px;
 		color: ghostwhite;
 
 	}
 	.brek{
 		display: none;
 	}
-	body{
+	/*body{
 		background-image: linear-gradient(#000e2e, #004f5a);
-	}
+	}*/
 	.gra{
 		position: relative;
 		left: 10px;
@@ -235,7 +237,7 @@
 		</div>
 		<button class="sign">Sign Up</button>
 		<div class="info">
-			<p class="information"><span class="glad">Glad welcome.</span><br><span class="its"> It's a glad welcome we bring to you this Game filled with the desires<br class="brek"> hopes and dreams we all share.<br>hospitable welcome. <br>We're delighted to offer the most hospitable welcome we can.</span></p>
+			<p class="information"><span class="glad">Glad welcome.</span><br><span class="its"> It's a glad welcome we bring to you this Game filled with the<br> desires<br class="brek"> hopes and dreams we all share.<br>hospitable welcome. <br>We're delighted to offer the most hospitable welcome we can.</span></p>
 			<p class="gra">Gracious welcome.</p>
 			
 		</div>
