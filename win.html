@@ -1,51 +1,390 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="respond.css">
-	<title>responsive proj</title>
-</head>
-<body>
-       		<div class="hero">
-       			
-       			<div class="navbar">
-       				<button class="logo">Abdullahi Ibar</button>
-       				<button type="button" class="sign">Sign Up</button>
-       			</div>
-       			<div class="content">
-       				<small>Welcom to our</small>
-       				<h1>World's <br>Creative Studio</h1>
-       				<button type="button" class="take">Take a tour</button>
-       			</div>
-       			<div class="side-bar">
-       				<ion-icon name="menu-outline" class="menu"></ion-icon>
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(#000e2e,#004f5a);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+}
+.navbar{
+	width: 85%;
+	height: 15%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	background:none;
+	font-size: 18px;
+	border: none;
+/*	border: 1px solid #fff;*/
+	color: #fbfcfd;
+/*	border-radius: 20px;*/
+	padding: 10px 25px;
+}
+.sign{
+	background: none;
+	font-size: 1em;
+	border: 1px solid #fff;
+	color: #fbfcfd;
+	border-radius: 20px;
+	padding: 10px 35px;
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+	font-weight: bold;
+}
+.sign:hover{
+	background-color: aqua;
+	color: #000e2e;
+	border-color: aqua;
+}
+.content{
+	color: #fbfcfd;
+	position: absolute;
+	top: 50%;
+	left: 8%;
+  transform: translate(0%, -50%);
+	z-index: 2;
+}
+h1{
+	font-size: 80px;
+	margin: 10px 0 30px;
+	line-height: 80px;
+}
+.take{
+	padding: 5px 12px;
+	font-size: 12px;
+	color: #fff;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	font-weight: bold;
+	transition: .5s;
+}
+.take:hover{
+	background-color:#000e2e;
+	color:aqua ;
+	border-color:#000e2e ;
+}
+.side-bar{
+	width: 50px;
+	height: 100vh;
+	background:linear-gradient(#00545d, #000729);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.menu{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 40px auto 0;
+	cursor: pointer;
+	color: #fff;
 
-       				<div class="social-links">
-       				<ion-icon name="logo-instagram" class="social"></ion-icon>
-       				<ion-icon name="logo-facebook" class="social"></ion-icon>
-       				<ion-icon name="logo-twitter"></ion-icon>
-       				</div>
+}
 
-       				<div class="useful-links">
-       				<ion-icon name="share-social-outline"></ion-icon>
-       				<ion-icon name="help-circle-outline"></ion-icon>
-       				</div>
-       				
-       			</div>
+.bubbles{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 0;
+}
+.bubbles img{
+  width: 50px;
+  animation: bubble 7s infinite;
+}
+.congra{
+	font-size: 1em;
+	color: aqua;
+	display: none;
+}
 
-       			<div class="bubbles">
-       				<img src="sawir/buble.png">
-       				<img src="sawir/buble.png">
-       				<img src="sawir/buble.png">
-       				<img src="sawir/buble.png">
-       				<img src="sawir/buble.png">
-       				<img src="sawir/buble.png">
-       				<img src="sawir/buble.png">
-       		
-       		</div>
+@keyframes bubble{
+	0%{
+		transform: translateY(0);
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	70%{
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(-90vh);
+		opacity: 0;
+	}
+}
 
-       		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-			<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
-</html>
+.bubbles img:nth-child(1){
+	width: 25px;
+	animation-delay: 1s;
+}
+.bubbles img:nth-child(2){
+	animation-delay: 2s;
+}
+.bubbles img:nth-child(3){
+	width: 20px;
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+	animation-delay: 4.5s;
+}
+.bubbles img:nth-child(5){
+	animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+	width: 20px;
+	animation-delay: 6s;
+}
+.bubbles img:nth-child(7){
+	width: 15px;
+	animation-delay: 7s;
+}
+.q-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid #fff;
+	width: 400px;
+	height: 500px;
+	border-radius: 15px;
+	display: none;
+}
+.Q{
+	color: #fff;
+	font-size: 1.2em;
+}
+.name{
+	color: #fff;
+    position:absolute;
+    top: 25px;
+    left: 30px;
+
+}
+.count{
+	color: #fff;
+    position:absolute;
+    top: 25px;
+    left: 325px;
+	  display: none;
+}
+#wrong{
+	color: red;
+}
+#right{
+	color: Aqua;
+}
+.questions{
+	width: 85%;
+	height: 100px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+#Q1{
+	display: none;
+}
+#Q2{
+	display: none;
+}
+#Q3{
+	display: none;
+}
+#Q4{
+	display: none;
+}
+#Q5{
+	display: none;
+}
+#Q6{
+	display: none;
+}
+#Q7{
+	display: none;
+}
+#Q8{
+	display: none;
+}
+#Q9{
+	display: none;
+}
+#Q10{
+	display: none;
+}
+#f{
+	font-size:50px;
+	display: none;
+}
+.answers{
+	width: 85%;
+	height: 100px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 150px;
+}
+.idname{
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	background-color:transparent;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-size: 1em;
+	color: #fff;
+}
+.in-j{
+	display: none;
+}
+.in-j2{
+	display: none;
+}
+.small,.small2{
+	position: relative;
+	top: 200px;
+	color: #fff;
+}
+.small2{
+	color: aqua
+}
+.small3{position: relative;
+	top: 200px;
+	color: #fff;
+}
+::placeholder{
+	color: #fff;
+	letter-spacing: 4px;
+}
+.submit{
+	background: #000e2e;
+	padding: 8px 20px;
+	color: aqua;
+	font-weight: bold;
+	border: none;
+	font-size: 1em;
+	position: relative;
+	top: 220px;
+	left: 280px;
+	border-radius: 4px;
+	letter-spacing: 2;
+}
+.next{
+	background: #000e2e;
+	padding: 8px 20px;
+	color: aqua;
+	font-weight: bold;
+	border: none;
+	font-size: 1em;
+	position: relative;
+	top: 250px;
+	left: 295px;
+	border-radius: 4px;
+	letter-spacing: 2;
+	display: none;
+}
+#you{
+	color: aqua;
+}
+.in-j{
+	width: 100%;
+	position: relative;
+	top: 30px;
+}
+.j{
+	width: 100%;
+	padding: 10px 0;
+	border:1px solid #fff;
+	margin: 0 0 20px 0;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#natiijo{
+	display: none;
+	color: aqua;
+}
+.heer{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: verdana;
+	color: aqua;
+}
+
+
+
+
+@media screen and (max-width:600px){
+	h1{
+	font-size: 30px;
+	line-height: 40px;
+}
+.logo{
+	font-size: 13px;
+	left: 30px;
+}
+.sign{
+	font-size: 14px;
+	padding: 8px 20px;
+}
+.side-bar{
+	width: 100%;
+	height: 50px;
+	top: auto;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.social-links{
+	width: auto;
+	position: unset;
+	transform: none;
+}
+.useful-links{
+	width: auto;
+	position: unset;
+}
+.menu{
+	width: 18px;
+	margin: 0;
+
+}
+.q-content{
+	width: 350px;
+	height: 500px;
+
+}
+.submit{
+	padding: 7px 16px;
+	font-size: 13px;
+	left: 260px;
+}
+.count{
+	color: #fff;
+    position:absolute;
+    top: 25px;
+    left: 300px;
+	  display: none;
+}
+}
